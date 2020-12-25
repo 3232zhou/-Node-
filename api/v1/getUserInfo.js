@@ -17,4 +17,7 @@ router.post('/API_getUserInfo', async (ctx, next) => {
   }
   throw new Success(null, null, {imageUrl: avatarUrl});
 });
+router.get('/test', async (cex, next) => {
+  throw new Success();
+});
 module.exports = router;
