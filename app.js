@@ -9,6 +9,6 @@ app.use(catchError);
 app.use(bodyParser());
 const InitMangerl = require('./core/index');
 InitMangerl.initCore(app);
-app.listen(4000, function () {
+app.listen(80, function () {
   console.log('端口跑在： 127.0.0.1:4000')
 });
